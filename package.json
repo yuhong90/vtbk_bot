@@ -1,0 +1,25 @@
+{
+  "name": "vtbk_bot",
+  "version": "1.0.0",
+  "description": "Vtbk Bot is a Telegram bot that replies motivational message when it detects a troll within the message",
+  "repository": {
+  },
+  "license": "ISC",
+  "engines": {
+    "node": "7.x.x",
+    "npm": "4.x.x"
+  },
+  "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^2.0.4",
+    "telegram-node-bot": "^4.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2"
+  }
+}
