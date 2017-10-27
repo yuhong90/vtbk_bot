@@ -1,19 +1,19 @@
 # About vtbk Bot
 vtbk Bot is a Telegram bot that replies motivational message when it detects a vtbk within the message.
 
-A new intended feature is to use it as a reminder bot where user can pin reminders and it will automatically remind users in a certain interval.
+A new intended feature is to use it as a reminder bot where user can pin reminders and it will automatically remind users at certain intervals.
 
 # Usage
 1. Git clone the repository
 2. run `npm install`
 3. run `node index.js`
 4. Create a telegram bot using telegram botfather
-5. In `config/index` folder, use the generated token from the botfather and to fill up the key
+5. In `config.js` file, use the generated token from the botfather and to fill up the key
 
 
 To use the feature to save reminders to Google sheets, 
 1. You have to create a google sheet 
-2. Take the spreadsheet key from the URL of your google sheet and fill it in `config/index`
+2. Take the spreadsheet key from the URL of your google sheet and fill it in `config.js`
 3. For authentication of writing to Google sheets using a service account, follow the setup instructions below.
 
 **Setup Instructions**
@@ -31,7 +31,7 @@ Allows you to pin a reminder for reference later. These messages will then be au
 ## vtbk remind
 Shows you a list of whatever you have pinned.
 
-## any other text that containts 'vtbk'
+## any other text that contains 'vtbk'
 Allows the bot to reply you with a motivational message.
 
 # Wish List
